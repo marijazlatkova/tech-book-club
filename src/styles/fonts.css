@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/inter/static/Inter_18pt-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/inter/static/Inter_18pt-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/inter/static/Inter-Italic-VariableFont_opsl_wght.ttf") format("truetype");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/inter/static/Inter-VariableFont_opsz_wght.ttf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Martian Mono";
+  src: url("../assets/fonts/martian-mono/static/MartianMono-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Martian Mono";
+  src: url("../assets/fonts/martian-mono/static/MartianMono-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Martian Mono";
+  src: url("../assets/fonts/martian-mono/static/MartianMono-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Martian Mono";
+  src: url("../assets/fonts/martian-mono/static/MartianMono-VariableFont_wdth_wght.ttf") format("truetype");
+  font-style: normal;
+}

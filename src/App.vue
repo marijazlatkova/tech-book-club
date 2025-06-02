@@ -1,9 +1,11 @@
 <script setup>
-
+  import "./styles/fonts.css";
+  import "./styles/global.css";
+  import HeroSection from "./components/hero/HeroSection.vue";
 </script>
 
 <template>
-  <h3>App</h3>
+  <HeroSection />
 </template>
 
 <style scoped>
