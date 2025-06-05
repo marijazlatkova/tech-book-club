@@ -46,12 +46,15 @@
 
 <style scoped>
   .hero {
-    background: rgb(255, 255, 255) url("@/assets/images/pattern-glow.svg") no-repeat right top;
+    background-color: rgb(250, 245, 243);
+    background-image: url("@/assets/images/pattern-light-bg.svg"), url("@/assets/images/pattern-glow.svg");
+    background-position: top left, top right;
     background-size: cover;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+    background-repeat: no-repeat;
+    padding: 40px 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
     overflow-x: hidden;
   }
 
@@ -70,13 +73,13 @@
     font-size: 30px;
     font-weight: 700;
     line-height: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     margin: 0;
   }
 
   .description {
     color: rgb(56, 81, 89);
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     font-size: 20px;
     margin: 0;
   }
@@ -97,6 +100,7 @@
     border-radius: 8px;
     background: rgb(255, 245, 239);
     color: rgb(31, 31, 31);
+    margin-bottom: 30px;
   }
 
   .social-proof {
@@ -135,7 +139,7 @@
     object-fit: cover;
   }
 
-  @media (min-width: 768px) and (max-width: 1279px) {
+  @media (min-width: 768px) {
     .hero {
       padding: 40px;
     }
@@ -156,29 +160,23 @@
 
   @media (min-width: 1280px) {
     .hero {
-      flex-direction: row;
+      padding: 60px 160px;
+      grid-template-columns: 1fr 1fr;
       align-items: center;
-      justify-content: space-between;
       gap: 40px;
-      padding: 60px 80px;
-      max-width: 1200px;
-      margin: 0 auto;
     }
 
     .hero-left {
-      flex: 1.1;
-      max-width: 600px;
       display: flex;
       flex-direction: column;
       gap: 20px;
     }
 
     .hero-image {
-      flex: 0.9;
-      max-width: 500px;
       width: 100%;
       height: auto;
       border-radius: 25px;
+      object-fit: cover;
     }
 
     .hero-gradient {

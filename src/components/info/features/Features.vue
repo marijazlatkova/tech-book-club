@@ -55,16 +55,24 @@
 
 <style scoped>
   .features {
-    padding: 50px 20px;
+    padding: 40px 20px;
     display: flex;
     flex-direction: column;
     gap: 30px;
   }
 
   .features-block {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
     gap: 20px;
+  }
+
+  .features-block.reverse {
+    direction: rtl;
+  }
+
+  .features-block.reverse > * {
+    direction: ltr;
   }
 
   .features-text {
@@ -174,39 +182,18 @@
 
   @media screen and (min-width: 1280px) {
     .features {
-      padding: 60px 80px;
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-
-    .features-block.reverse {
-      flex-direction: row-reverse;
-      align-items: center;
-      justify-content: space-between;
-      gap: 60px;
+      padding: 60px 160px
     }
 
     .features-block {
-      flex-direction: row;
+      grid-template-columns: 1fr 1fr;
       align-items: center;
       gap: 60px;
-    }
-
-    .features-text {
-      flex: 1.1;
-      max-width: 600px;
     }
 
     .features-title {
       font-size: 42px;
       line-height: 48px;
-    }
-
-    .features-image {
-      flex: 0.9;
-      max-width: 500px;
-      width: 100%;
-      height: auto;
     }
 
     .features-icon {

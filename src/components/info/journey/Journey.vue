@@ -112,9 +112,7 @@
 
   @media (min-width: 1280px) {
     .journey {
-      padding: 60px;
-      max-width: 1200px;
-      margin: 0 auto;
+      padding: 60px 160px;
     }
 
     .journey-wrapper {
