@@ -1,8 +1,8 @@
 <template>
   <section class="hero">
-    <div class="hero-left">
-      <img :src="logo" class="logo" alt="Tech book club logo" />
+    <img :src="logo" class="logo" alt="Tech book club logo" />
 
+    <div class="hero-left">
       <h1 class="hero-gradient">
         Join the ultimate tech book club
       </h1>
@@ -54,8 +54,10 @@
     padding: 40px 20px;
     display: grid;
     grid-template-columns: 1fr;
+    align-items: center;
     gap: 20px;
     overflow-x: hidden;
+    position: relative;
   }
 
   .logo {
@@ -158,39 +160,49 @@
     }
   }
 
-  @media (min-width: 1280px) {
+  @media (min-width: 1440px) {
     .hero {
-      padding: 60px 160px;
+      padding: 40px 180px;
       grid-template-columns: 1fr 1fr;
       align-items: center;
       gap: 40px;
+    }
+
+    .logo {
+      position: absolute;
+      top: 50px;
+      left: 180px;
+      z-index: 10;
+      padding-bottom: 0;
     }
 
     .hero-left {
       display: flex;
       flex-direction: column;
       gap: 20px;
-    }
-
-    .hero-image {
-      width: 100%;
-      height: auto;
-      border-radius: 25px;
-      object-fit: cover;
+      padding-top: 80px;
     }
 
     .hero-gradient {
-      font-size: 48px;
-      line-height: 56px;
+      font-size: 54px;
+      line-height: 70px;
+      padding-bottom: 10px;
     }
 
     .description {
       font-size: 22px;
+      padding-bottom: 13px;
     }
 
     .membership-btn {
+      width: 80%;
       font-size: 18px;
       padding: 18px;
+      margin: 0;
+    }
+
+    .social-proof {
+      margin: 10px 0;
     }
 
     .developers {

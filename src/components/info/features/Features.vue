@@ -180,9 +180,9 @@
     }
   }
 
-  @media screen and (min-width: 1280px) {
+  @media screen and (min-width: 1440px) {
     .features {
-      padding: 60px 160px
+      padding: 60px 180px
     }
 
     .features-block {

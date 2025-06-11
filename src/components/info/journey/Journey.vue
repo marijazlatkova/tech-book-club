@@ -110,9 +110,9 @@
     }
   }
 
-  @media (min-width: 1280px) {
+  @media (min-width: 1440px) {
     .journey {
-      padding: 60px 160px;
+      padding: 60px 180px;
     }
 
     .journey-wrapper {
