@@ -29,11 +29,17 @@
         variant="enterprise"
       />
     </div>
+
+    <Testimonial
+      text="This book club transformed my technical reading from a solitary activity into an enriching community experience. The discussions are gold!"
+      author="Sarah Chen, Software Architect"
+    />
   </section>
 </template>
 
 <script setup>
   import MembershipCard from "@/components/membership/card/MembershipCard.vue";
+  import Testimonial from "@/components/membership/testimonial/Testimonial.vue";
 
   const starterFeatures = ["1 book/month", "Online forums"];
   const proFeatures = ["2 books/month", "Virtual meetups"];
