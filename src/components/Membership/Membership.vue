@@ -38,8 +38,8 @@
 </template>
 
 <script setup>
-  import MembershipCard from "@/components/membership/card/MembershipCard.vue";
-  import Testimonial from "@/components/membership/testimonial/Testimonial.vue";
+  import MembershipCard from "@/components/Membership/Card/MembershipCard.vue";
+  import Testimonial from "@/components/Membership/Testimonial/Testimonial.vue";
 
   const starterFeatures = ["1 book/month", "Online forums"];
   const proFeatures = ["2 books/month", "Virtual meetups"];
