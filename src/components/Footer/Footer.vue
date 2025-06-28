@@ -1,11 +1,11 @@
 <template>
-  <footer class="footer">
+  <footer class="footer" id="footer">
     <h2 class="footer-title">Ready to debug your reading list?</h2>
 
-    <button class="footer-btn">
+    <a href="#membership" class="footer-btn">
       Review membership options
       <img :src="arrowIcon" alt="Arrow Icon" />
-    </button>
+    </a>
 
     <div class="footer-social">
       <img :src="avatars" class="avatars" alt="Avatars" />
@@ -65,6 +65,7 @@
     font-size: 16px;
     font-weight: 600;
     text-transform: uppercase;
+    text-decoration: none;
     letter-spacing: -0.3px;
     background: transparent;
     color: rgb(255, 255, 255);
@@ -75,6 +76,11 @@
     align-items: center;
     gap: 12px;
     cursor: pointer;
+  }
+
+  .footer-btn:hover {
+    background: no-repeat linear-gradient(90deg, rgb(56, 81, 89), rgb(6, 38, 48));
+    transition: 200ms;
   }
 
   .footer-social {

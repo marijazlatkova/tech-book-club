@@ -13,10 +13,10 @@
         your skills one chapter at a time.
       </p>
 
-      <button class="membership-btn">
+      <a href="#membership" class="membership-btn">
         Review membership options
         <img :src="arrowIcon" alt="Arrow Icon" />
-      </button>
+      </a>
 
       <div class="social-proof">
         <img :src="avatars" class="avatars" alt="Avatars" />
@@ -92,6 +92,7 @@
     font-weight: 600;
     letter-spacing: -0.33px;
     text-transform: uppercase;
+    text-decoration: none;
     width: 100%;
     display: flex;
     align-items: center;
@@ -103,6 +104,12 @@
     background: rgb(255, 245, 239);
     color: rgb(31, 31, 31);
     margin-bottom: 30px;
+    cursor: pointer;
+  }
+
+  .membership-btn:hover {
+    background: no-repeat linear-gradient(90deg, rgb(255, 226, 209), rgb(255, 245, 239));
+    transition: 200ms;
   }
 
   .social-proof {

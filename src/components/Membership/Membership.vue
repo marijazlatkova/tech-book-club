@@ -1,5 +1,5 @@
 <template>
-  <section class="membership">
+  <section class="membership" id="membership">
     <h2 class="membership-title">Membership options</h2>
 
     <div class="membership-cards">

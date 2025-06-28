@@ -12,7 +12,7 @@
         {{ feature }}
       </li>
     </ul>
-    <button class="card-button">{{ buttonLabel }}</button>
+    <a href="#footer" class="card-button">{{ buttonLabel }}</a>
   </article>
 </template>
 
@@ -103,6 +103,8 @@
     font-size: 18px;
     font-weight: 600;
     text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
     width: 100%;
     background-color: rgb(255, 245, 239);
     color: rgb(6, 38, 48);
@@ -110,6 +112,11 @@
     border-radius: 8px;
     padding: 22px;
     cursor: pointer;
+  }
+
+  .card-button:hover {
+    background: no-repeat linear-gradient(90deg, rgb(255, 226, 209), rgb(255, 245, 239));
+    transition: 200ms;
   }
 
   @media (min-width: 768px) {
