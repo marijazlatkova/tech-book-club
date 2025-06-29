@@ -49,6 +49,7 @@
     flex-direction: column;
     align-items: center;
     gap: 32px;
+    overflow-x: hidden;
   }
 
   .footer-title {
@@ -157,8 +158,8 @@
       position: absolute;
       top: 0;
       left: 0;
-      transform: translateX(-40px);
-      width: calc(100% + 80px);
+      right: 0;
+      width: auto;
       height: 1px;
       background-color: rgb(56, 81, 89);
     }
