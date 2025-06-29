@@ -1,5 +1,5 @@
 <template>
-  <section class="journey">
+  <div class="journey">
     <div class="journey-wrapper">
       <h2 class="journey-title">Your tech <span class="break">reading journey</span></h2>
 
@@ -16,7 +16,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </div>
 </template>
 
 <script setup>

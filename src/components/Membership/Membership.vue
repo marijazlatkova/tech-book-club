@@ -1,5 +1,5 @@
 <template>
-  <section class="membership" id="membership">
+  <div class="membership" id="membership">
     <h2 class="membership-title">Membership options</h2>
 
     <div class="membership-cards">
@@ -34,7 +34,7 @@
       text="This book club transformed my technical reading from a solitary activity into an enriching community experience. The discussions are gold!"
       author="Sarah Chen, Software Architect"
     />
-  </section>
+  </div>
 </template>
 
 <script setup>

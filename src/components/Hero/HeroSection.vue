@@ -1,5 +1,5 @@
 <template>
-  <section class="hero">
+  <div class="hero">
     <img :src="logo" class="logo" alt="Tech book club logo" />
 
     <div class="hero-left">
@@ -33,7 +33,7 @@
     </div>
 
     <img :src="heroImage" class="hero-image" alt="People reading" />
-  </section>
+  </div>
 </template>
 
 <script setup>

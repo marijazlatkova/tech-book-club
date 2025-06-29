@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer" id="footer">
+  <div class="footer" id="footer">
     <h2 class="footer-title">Ready to debug your reading list?</h2>
 
     <a href="#membership" class="footer-btn">
@@ -27,7 +27,7 @@
         <img :src="linkedinLogo" alt="LinkedIn logo" />
       </div>
     </div>
-  </footer>
+  </div>
 </template>
 
 <script setup>

@@ -1,5 +1,5 @@
 <template>
-  <article class="membership-card" :class="variant">
+  <div class="membership-card" :class="variant">
     <h3 class="card-title">{{ title }}</h3>
     <p class="card-price">
       {{ price }}
@@ -13,7 +13,7 @@
       </li>
     </ul>
     <a href="#footer" class="card-button">{{ buttonLabel }}</a>
-  </article>
+  </div>
 </template>
 
 <script setup>

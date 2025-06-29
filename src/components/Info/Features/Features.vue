@@ -1,5 +1,5 @@
 <template>
-  <section class="features">
+  <div class="features">
     <div class="features-block reverse">
       <div class="features-text">
         <h2 class="features-title">Read together, grow together</h2>
@@ -36,7 +36,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </div>
 </template>
 
 <script setup>
