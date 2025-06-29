@@ -1,8 +1,14 @@
 <template>
-  <HeroSection />
-  <InfoSection />
-  <Membership />
-  <Footer />
+  <header>
+    <HeroSection />
+  </header>
+  <main>
+    <InfoSection />
+    <Membership />
+  </main>
+  <footer>
+    <Footer />
+  </footer>
 </template>
 
 <script setup>
